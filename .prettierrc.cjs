@@ -8,6 +8,7 @@ const config = {
   arrowParens: "always",
   singleQuote: false,
   jsxSingleQuote: false,
-};
+  plugins: ["prettier-plugin-tailwindcss"],
+}
 
-module.exports = config;
+module.exports = config
